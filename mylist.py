@@ -1,0 +1,22 @@
+myfruits = ["apples", "oranges", "watermelon", "grapes"];
+print(myfruits[1]);
+newfruits = ["apples", "oranges", "watermelon", "oranges", "grapes", "apples", "cherry"];
+print(newfruits);
+berries = ["grapes", "blackberry", "blueberry", "raspberry"];
+print(berries);
+berries[1] = "strawberry"
+print(berries);
+newberries = ["grapes", "blackberry", "blueberry", "raspberry"];
+newberries.insert(1, "strawberry");
+print(newberries);
+myberries = ["grapes", "blackberry", "blueberry", "raspberry", "strawberry", "blueberry", "greenberry", "blueberry"];
+# myberries.remove(myberries[4]);
+# myberries.pop(1);
+myberries.sort();
+print(myberries);
+allberries = myberries.copy();
+print(allberries);
+list1 = ["a", "b", "c"];
+list2 = [1, 2, 3];
+list3 = list1 + list2;
+print(list3);
